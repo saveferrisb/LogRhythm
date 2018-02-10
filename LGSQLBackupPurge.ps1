@@ -3,7 +3,7 @@
 # Author: Shoestring
 # Description:  
 # As LogRhythm backups may be scheduled to run daily, these consist of very large files which may consume large amounts of disk space 
-# causing backups to fail as a result. This PS script can be integrated into the LogRhythm backup process to purge files >= 14 days old.
+# eventually causing backups to fail as a result. This PS script can be integrated into the LogRhythm backup process to purge files >= 14 days old.
 
 
 # This script is to be imported as a step into LogRhythm Backup as a job. Place this at step 1 or at the last step.
